@@ -1,12 +1,9 @@
 # Fix third-party lib path
-import fix_path
-
 from bs4 import BeautifulSoup as BS
 import urllib
 import urllib2
 import re
 
-from PCS import settings
 from class_time import Time_Interval, Class_Time
 
 class ParserException(Exception):
