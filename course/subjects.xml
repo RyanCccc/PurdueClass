@@ -1,0 +1,1307 @@
+<?xml version="1.0"?>
+<ArrayOfSubject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Subject>
+    <Acronym>AAE</Acronym>
+    <Name>AAE-Aero & Astro Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AAS</Acronym>
+    <Name>AAS-African American Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ABE</Acronym>
+    <Name>ABE-Agri & Biol Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ACC</Acronym>
+    <Name>ACC-Accounting</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ACE</Acronym>
+    <Name>ACE-Adult Continuing Education</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ACS</Acronym>
+    <Name>ACS-Applied Computer Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AD</Acronym>
+    <Name>AD-Art & Design</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AERO</Acronym>
+    <Name>AERO-Aerospace Study - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AFRO</Acronym>
+    <Name>AFRO-Afro-American Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AFT</Acronym>
+    <Name>AFT-Aerospace Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AGEC</Acronym>
+    <Name>AGEC-Agricultural Economics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AGR</Acronym>
+    <Name>AGR-Agriculture</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AGRY</Acronym>
+    <Name>AGRY-Agronomy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AHLT</Acronym>
+    <Name>AHLT-Allied Health Sciences-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AHS</Acronym>
+    <Name>AHS-Art: History</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AMST</Acronym>
+    <Name>AMST-American Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ANAT</Acronym>
+    <Name>ANAT-Anatomy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ANSC</Acronym>
+    <Name>ANSC-Animal Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ANTH</Acronym>
+    <Name>ANTH-Anthropology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ARAB</Acronym>
+    <Name>ARAB-Arabic</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ARET</Acronym>
+    <Name>ARET-Architectural Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ART</Acronym>
+    <Name>ART-Architectural Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AS</Acronym>
+    <Name>AS-Administrative Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASAM</Acronym>
+    <Name>ASAM-Asian American Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASCS</Acronym>
+    <Name>ASCS-Arts &Sci Career Services</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASIA</Acronym>
+    <Name>ASIA-Asian Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASL</Acronym>
+    <Name>ASL-American Sign Language</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASM</Acronym>
+    <Name>ASM-Agricultural Systems Mgmt</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AST</Acronym>
+    <Name>AST-Astronomy - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ASTR</Acronym>
+    <Name>ASTR-Astronomy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>AT</Acronym>
+    <Name>AT-Aviation Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BA</Acronym>
+    <Name>BA-Business Administration</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BAND</Acronym>
+    <Name>BAND-Bands</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BCHM</Acronym>
+    <Name>BCHM-Biochemistry</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BCM</Acronym>
+    <Name>BCM-Bldg Construct Mgmt Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BGR</Acronym>
+    <Name>BGR-Boiler Gold Rush</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BHS</Acronym>
+    <Name>BHS-Behavioral Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BIOC</Acronym>
+    <Name>BIOC-Biochemistry-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BIOL</Acronym>
+    <Name>BIOL-Biological Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BIOP</Acronym>
+    <Name>BIOP-Biophysics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BIOS</Acronym>
+    <Name>BIOS-Biostatistics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BITN</Acronym>
+    <Name>BITN-Biotechnology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BME</Acronym>
+    <Name>BME-Biomedical Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BMET</Acronym>
+    <Name>BMET-Biomedical Elect Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BMS</Acronym>
+    <Name>BMS-Basic Medical Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BSS</Acronym>
+    <Name>BSS-Behavioral & Social Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BTNY</Acronym>
+    <Name>BTNY-Botany & Plant Pathology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BUFW</Acronym>
+    <Name>BUFW-Business Fort Wayne - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BUKD</Acronym>
+    <Name>BUKD-Business Kelly Direct</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BUPA</Acronym>
+    <Name>BUPA-Bus-Profess Accountancy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BUS</Acronym>
+    <Name>BUS-Business</Name>
+  </Subject>
+  <Subject>
+    <Acronym>BUSM</Acronym>
+    <Name>BUSM-Business Management</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CAND</Acronym>
+    <Name>CAND-Candidate</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CDFS</Acronym>
+    <Name>CDFS-Child Dev &Family Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CE</Acronym>
+    <Name>CE-Civil Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CEM</Acronym>
+    <Name>CEM-Construction Engr & Mgmt</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CEMT</Acronym>
+    <Name>CEMT-Constr Engr Mgmt Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CET</Acronym>
+    <Name>CET-Civil Engineering Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CFS</Acronym>
+    <Name>CFS-Consumer & Family Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CGT</Acronym>
+    <Name>CGT-Computer Graphics Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CHE</Acronym>
+    <Name>CHE-Chemical Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CHEM</Acronym>
+    <Name>CHEM-Chemistry - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CHHS</Acronym>
+    <Name>CHHS-College of Hlth&Human Srv</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CHM</Acronym>
+    <Name>CHM-Chemistry</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CHNS</Acronym>
+    <Name>CHNS-Chinese</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CIC</Acronym>
+    <Name>CIC Traveling Scholar</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CIMT</Acronym>
+    <Name>CIMT-Computer Integr Mfg Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CIS</Acronym>
+    <Name>CIS-Computer Info Services</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CIT</Acronym>
+    <Name>CIT-Computer & Info Tech-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CJUS</Acronym>
+    <Name>CJUS-Criminal Justice-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CLAS</Acronym>
+    <Name>CLAS-Classical Studies - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CLCS</Acronym>
+    <Name>CLCS-Classics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CLPH</Acronym>
+    <Name>CLPH-Clinical Pharmacy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CMCI</Acronym>
+    <Name>CMCI-CIC Common Market</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CMCL</Acronym>
+    <Name>CMCL-Communications & Cultures</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CMET</Acronym>
+    <Name>CMET-Constr Mgmt & Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CMLT</Acronym>
+    <Name>CMLT-Comparative Literature-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CMPL</Acronym>
+    <Name>CMPL-Comparative Literature</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CNET</Acronym>
+    <Name>CNET-Construction Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CNIT</Acronym>
+    <Name>CNIT-Computer & Info Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CNT</Acronym>
+    <Name>CNT-Construction Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>COAS</Acronym>
+    <Name>COAS-College Arts & Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>COGS</Acronym>
+    <Name>COGS-Cognitive Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>COLL</Acronym>
+    <Name>COLL-College of Arts & Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>COM</Acronym>
+    <Name>COM-Communication</Name>
+  </Subject>
+  <Subject>
+    <Acronym>COMM</Acronym>
+    <Name>COMM-Communication - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CPB</Acronym>
+    <Name>CPB-Comparative Pathobiology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CPET</Acronym>
+    <Name>CPET-Computer Engineering Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CPSY</Acronym>
+    <Name>CPSY-Counseling Psychology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CRJU</Acronym>
+    <Name>CRJU-Criminal Justice-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CS</Acronym>
+    <Name>CS-Computer Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CSCI</Acronym>
+    <Name>CSCI-Computer Science - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CSD</Acronym>
+    <Name>CSD-Communic Sci & Disorders</Name>
+  </Subject>
+  <Subject>
+    <Acronym>CSR</Acronym>
+    <Name>CSR-Consumer ScI & Retailing</Name>
+  </Subject>
+  <Subject>
+    <Acronym>DANC</Acronym>
+    <Name>DANC-Dance</Name>
+  </Subject>
+  <Subject>
+    <Acronym>DAST</Acronym>
+    <Name>DAST-Dental Assisting</Name>
+  </Subject>
+  <Subject>
+    <Acronym>DHYG</Acronym>
+    <Name>DHYG-Dental Hygiene</Name>
+  </Subject>
+  <Subject>
+    <Acronym>DLTP</Acronym>
+    <Name>DLTP-Dental Lab Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>DPIS</Acronym>
+    <Name>DPIS-Data Proc & Info</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EALC</Acronym>
+    <Name>EALC-East Asian Lang & Cult</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EAPS</Acronym>
+    <Name>EAPS-Earth Atmos Planetary Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EAS</Acronym>
+    <Name>EAS-Earth & Atmospheric Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ECE</Acronym>
+    <Name>ECE-Electrical & Computer Engr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ECET</Acronym>
+    <Name>ECET-Electrical&Comp Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ECON</Acronym>
+    <Name>ECON-Economics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDCI</Acronym>
+    <Name>EDCI-Educ-Curric & Instruction</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDFA</Acronym>
+    <Name>EDFA-Foundations & Admin</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDHI</Acronym>
+    <Name>EDHI-Education Higher</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDPS</Acronym>
+    <Name>EDPS-Educ-Ed'l and Psy Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDST</Acronym>
+    <Name>EDST-Ed Leadrship&Cultrl Fnd</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDUA</Acronym>
+    <Name>EDUA-Education Admin- IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EDUC</Acronym>
+    <Name>EDUC-Education - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EEE</Acronym>
+    <Name>EEE-Environ & Ecological Engr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EEN</Acronym>
+    <Name>EEN - Energy Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EMER</Acronym>
+    <Name>EMER-Emergency Medical Service</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EN</Acronym>
+    <Name>EN-English - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENE</Acronym>
+    <Name>ENE-Engineering Education</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENG</Acronym>
+    <Name>ENG-English - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENGL</Acronym>
+    <Name>ENGL-English</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENGR</Acronym>
+    <Name>ENGR-Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENTM</Acronym>
+    <Name>ENTM-Entomology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ENTR</Acronym>
+    <Name>ENTR-Entrepreneurship</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EPCS</Acronym>
+    <Name>EPCS-Engr Proj Cmity Service</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EQU</Acronym>
+    <Name>EQU-Equine Management</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ESC</Acronym>
+    <Name>ESC-Engineering Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ET</Acronym>
+    <Name>ET-Electrical Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ETCS</Acronym>
+    <Name>ETCS-Engr Tech & Computer Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ETHN</Acronym>
+    <Name>ETHN-Ethnic Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>EXPL</Acronym>
+    <Name>EXPL-Exploratory Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FCSM</Acronym>
+    <Name>FCSM-Fam Cons Sci:Merchandise</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FILM</Acronym>
+    <Name>FILM-Film Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FIN</Acronym>
+    <Name>FIN-Finance</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FINA</Acronym>
+    <Name>FINA-Fine Arts - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FIS</Acronym>
+    <Name>FIS-Forensic & Investig Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FLAC</Acronym>
+    <Name>FLAC-Foreign Lang & Cult-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FLL</Acronym>
+    <Name>FLL-Foreign Lang & Literatures</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FLLC</Acronym>
+    <Name>FLLC-Foster Intl Liv/Learn Ctr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FM</Acronym>
+    <Name>FM-Fitness Management</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FN</Acronym>
+    <Name>FN-Foods And Nutrition</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FNR</Acronym>
+    <Name>FNR-Forestry&Natural Resources</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FOLK</Acronym>
+    <Name>FOLK-Folklore</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FR</Acronym>
+    <Name>FR-French</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FREN</Acronym>
+    <Name>FREN-French - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FRST</Acronym>
+    <Name>FRST-Foreign Study</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FS</Acronym>
+    <Name>FS-Food Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FVS</Acronym>
+    <Name>FVS-Film And Video Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FWAI</Acronym>
+    <Name>FWAI-Ft Wayne Are Inst - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>FWAS</Acronym>
+    <Name>FWAS - Arts And Sciences-FW</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GBA</Acronym>
+    <Name>GBA-Business-Accounting</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GBG</Acronym>
+    <Name>GBG-Business-General</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GBH</Acronym>
+    <Name>GBH-General Business Health</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GBI</Acronym>
+    <Name>GBI-Business-International</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GBM</Acronym>
+    <Name>GBM-Business-Marketing</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GEOG</Acronym>
+    <Name>GEOG-Geography</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GEOL</Acronym>
+    <Name>GEOL-Geology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GEP</Acronym>
+    <Name>GEP-Global Engineering Program</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GER</Acronym>
+    <Name>GER-German</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GERN</Acronym>
+    <Name>GERN-Gerontology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GNC</Acronym>
+    <Name>GNC-Community College</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GNS</Acronym>
+    <Name>GNS-Community College</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GRAD</Acronym>
+    <Name>GRAD-Graduate Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GREK</Acronym>
+    <Name>GREK-Greek</Name>
+  </Subject>
+  <Subject>
+    <Acronym>GS</Acronym>
+    <Name>GS-General Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HDFS</Acronym>
+    <Name>HDFS-Human Dev &Family Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HEBR</Acronym>
+    <Name>HEBR-Hebrew</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HER</Acronym>
+    <Name>HER-Herron Art</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HHS</Acronym>
+    <Name>HHS-College Health & Human Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HIA</Acronym>
+    <Name>HIA-Health Info Administration</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HIST</Acronym>
+    <Name>HIST-History</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HK</Acronym>
+    <Name>HK-Health And Kinesiology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HON</Acronym>
+    <Name>HON-Honors - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HONR</Acronym>
+    <Name>HONR-Honors</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HORT</Acronym>
+    <Name>HORT-Horticulture</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HPER</Acronym>
+    <Name>HPER-Health Physical Ed &Recr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HPSC</Acronym>
+    <Name>HPSC-History & Phil Of Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HSC</Acronym>
+    <Name>HSC-Health Sciences-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HSCI</Acronym>
+    <Name>HSCI-Health Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HSRV</Acronym>
+    <Name>HSRV-Human Services</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HST</Acronym>
+    <Name>HST-Health Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HTM</Acronym>
+    <Name>HTM-Hospitality & Tourism Mgmt</Name>
+  </Subject>
+  <Subject>
+    <Acronym>HUMA</Acronym>
+    <Name>HUMA-Humanities - General</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IDE</Acronym>
+    <Name>IDE-Interdisciplinary Engr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IDIS</Acronym>
+    <Name>IDIS-Interdisciplinary Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IE</Acronym>
+    <Name>IE-Industrial Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IET</Acronym>
+    <Name>IET-Industrial Engr Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IIM</Acronym>
+    <Name>IIM-Integrated Info Mgmt-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ILCS</Acronym>
+    <Name>ILCS-Intl Lang&Culture Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IM</Acronym>
+    <Name>IM-Informatics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>INFO</Acronym>
+    <Name>INFO-Informatics -IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>INST</Acronym>
+    <Name>INST-India Studies-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>INTG</Acronym>
+    <Name>INTG-Integrated Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>INTL</Acronym>
+    <Name>INTL-International</Name>
+  </Subject>
+  <Subject>
+    <Acronym>INTR</Acronym>
+    <Name>INTR-Interior Design-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IPPH</Acronym>
+    <Name>IPPH-Industrial & Phys Pharm</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ISM</Acronym>
+    <Name>ISM-Information Systems</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IST</Acronym>
+    <Name>IST-Information Systems&Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>IT</Acronym>
+    <Name>IT-Industrial Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ITAL</Acronym>
+    <Name>ITAL-Italian</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ITC</Acronym>
+    <Name>ITC-Information Tech&Computers</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ITCS</Acronym>
+    <Name>ITCS-Indust & Tech:Constr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ITS</Acronym>
+    <Name>ITS-Information Tech Systems</Name>
+  </Subject>
+  <Subject>
+    <Acronym>JOUR</Acronym>
+    <Name>JOUR-Journalism</Name>
+  </Subject>
+  <Subject>
+    <Acronym>JPNS</Acronym>
+    <Name>JPNS-Japanese</Name>
+  </Subject>
+  <Subject>
+    <Acronym>JWST</Acronym>
+    <Name>JWST-Jewish Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>KINS</Acronym>
+    <Name>KINS-Kinsey Institute</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LA</Acronym>
+    <Name>LA-Landscape Architecture</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LALS</Acronym>
+    <Name>LALS-Latina Am&Latino Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LAS</Acronym>
+    <Name>LAS-Latin American Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LATN</Acronym>
+    <Name>LATN-Latin</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LAW</Acronym>
+    <Name>LAW-Law</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LBST</Acronym>
+    <Name>LBST-Liberal Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LC</Acronym>
+    <Name>LC-Languages and Cultures</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LGBT</Acronym>
+    <Name>LGBT-Lesb,Gay, Bisex&Transgndr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LING</Acronym>
+    <Name>LING-Linguistics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LS</Acronym>
+    <Name>LS-Land Surveying</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LSTU</Acronym>
+    <Name>LSTU-Labor Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>LTHN</Acronym>
+    <Name>LTHN-Lithuanian</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MA</Acronym>
+    <Name>MA-Mathematics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MARS</Acronym>
+    <Name>MARS-Medieval &Renaissance Std</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MATH</Acronym>
+    <Name>MATH-Mathematics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MCMP</Acronym>
+    <Name>MCMP-Med Chem &Molecular Pharm</Name>
+  </Subject>
+  <Subject>
+    <Acronym>ME</Acronym>
+    <Name>ME-Mechanical Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MED</Acronym>
+    <Name>MED-Medicine</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MEST</Acronym>
+    <Name>MEST-Medieval Studies-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MET</Acronym>
+    <Name>MET-Mechanical Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MFET</Acronym>
+    <Name>MFET-Manufacturing Engr Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MGEN</Acronym>
+    <Name>MGEN-Medical Genetics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MGMT</Acronym>
+    <Name>MGMT-Management</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MHHS</Acronym>
+    <Name>MHHS-Med Humanities & Hlth Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MICR</Acronym>
+    <Name>MICR-Microbiology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MIL</Acronym>
+    <Name>MIL-Military - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MIS</Acronym>
+    <Name>MIS-Management Info Systems</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MKG</Acronym>
+    <Name>MKG-Marketing</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MNEU</Acronym>
+    <Name>MNEU-Medical Neurobiology - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSCI</Acronym>
+    <Name>MSCI-Medical Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSE</Acronym>
+    <Name>MSE-Materials Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSL</Acronym>
+    <Name>MSL-Military Science & Ldrshp</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSPT</Acronym>
+    <Name>MSPT - Motorsports Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSTD</Acronym>
+    <Name>MSTD-Museum Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MSV</Acronym>
+    <Name>MSV-Model, Simulatn&Visualiztn</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MT</Acronym>
+    <Name>MT-Mathematics-Butler</Name>
+  </Subject>
+  <Subject>
+    <Acronym>MUS</Acronym>
+    <Name>MUS-Music History & Theory</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NELC</Acronym>
+    <Name>NELC-Near Eastern Lang</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NEWM</Acronym>
+    <Name>NEWM-New Media</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NMCM</Acronym>
+    <Name>NMCM-New Media Communication</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NRES</Acronym>
+    <Name>NRES-Natural Res & Environ Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NS</Acronym>
+    <Name>NS-Naval Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NUCL</Acronym>
+    <Name>NUCL-Nuclear Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NUPH</Acronym>
+    <Name>NUPH-Nuclear Pharmacy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NUR</Acronym>
+    <Name>NUR-Nursing</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NURS</Acronym>
+    <Name>NURS-Nursing - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>NUTR</Acronym>
+    <Name>NUTR-Nutrition Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>OBHR</Acronym>
+    <Name>OBHR-Orgnztnl Bhvr &Hum Resrce</Name>
+  </Subject>
+  <Subject>
+    <Acronym>OLS</Acronym>
+    <Name>OLS-Organiz Ldrshp&Supervision</Name>
+  </Subject>
+  <Subject>
+    <Acronym>OVST</Acronym>
+    <Name>OVST-Overseas Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PACS</Acronym>
+    <Name>PACS-Peace & Conflict Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PATH</Acronym>
+    <Name>PATH-Pathology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PBHL</Acronym>
+    <Name>PBHL-Public Health</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PCTX</Acronym>
+    <Name>PCTX-Pharmacology & Toxicology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PES</Acronym>
+    <Name>PES-Physical Education Skills</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PH</Acronym>
+    <Name>PH-Physics - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHAD</Acronym>
+    <Name>PHAD-Pharmacy Administration</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHAR</Acronym>
+    <Name>PHAR-Pharmacology - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHIL</Acronym>
+    <Name>PHIL-Philosophy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHPR</Acronym>
+    <Name>PHPR-Pharmacy Practice</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHRM</Acronym>
+    <Name>PHRM-Pharmacy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHSL</Acronym>
+    <Name>PHSL-Physiology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHST</Acronym>
+    <Name>PHST-Philanthropic Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PHYS</Acronym>
+    <Name>PHYS-Physics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PLSC</Acronym>
+    <Name>PLSC-Plant Sciences</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PLSH</Acronym>
+    <Name>PLSH-Polish</Name>
+  </Subject>
+  <Subject>
+    <Acronym>POL</Acronym>
+    <Name>POL-Political Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>POLS</Acronym>
+    <Name>POLS-Political Science - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PPE</Acronym>
+    <Name>PPE-Professional Practice-Engr</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PPOL</Acronym>
+    <Name>PPOL-Public Policy</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PPT</Acronym>
+    <Name>PPT-Professional Practice-Tech</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PSY</Acronym>
+    <Name>PSY-Psychology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PSYI</Acronym>
+    <Name>PSYI-Psychology -IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PTGS</Acronym>
+    <Name>PTGS-Portuguese</Name>
+  </Subject>
+  <Subject>
+    <Acronym>PULM</Acronym>
+    <Name>PULM-Pulmonary&Crit Care Med</Name>
+  </Subject>
+  <Subject>
+    <Acronym>RADI</Acronym>
+    <Name>RADI-Radiology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>RADX</Acronym>
+    <Name>RADX-Radiologic Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>RAON</Acronym>
+    <Name>RAON-Radiation Oncology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>RECR</Acronym>
+    <Name>RECR-Recreation Leadership</Name>
+  </Subject>
+  <Subject>
+    <Acronym>REG</Acronym>
+    <Name>REG-Reg File Maintenance</Name>
+  </Subject>
+  <Subject>
+    <Acronym>REL</Acronym>
+    <Name>REL-Religious Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>RUSS</Acronym>
+    <Name>RUSS-Russian</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SA</Acronym>
+    <Name>SA-Study Abroad</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SCI</Acronym>
+    <Name>SCI-General Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SE</Acronym>
+    <Name>SE-Systems Engineering</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SERV</Acronym>
+    <Name>SERV-Service Learning</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SHRS</Acronym>
+    <Name>SHRS-Schl of Health&Rehab Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SLA</Acronym>
+    <Name>SLA-School of Liberal Arts</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SLAV</Acronym>
+    <Name>SLAV-Slavic Lang & Lit</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SLHS</Acronym>
+    <Name>SLHS-Speech, Lang&Hear Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SLIS</Acronym>
+    <Name>SLIS-Lib & Info Science</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SOC</Acronym>
+    <Name>SOC-Sociology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SPAN</Acronym>
+    <Name>SPAN-Spanish</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SPCH</Acronym>
+    <Name>SPCH-Speech - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SPEA</Acronym>
+    <Name>SPEA-Public & Environ Affairs</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SPH</Acronym>
+    <Name>SPH-School Of Public Health-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SRCT</Acronym>
+    <Name>SRCT-Serbo-Croatian</Name>
+  </Subject>
+  <Subject>
+    <Acronym>STAR</Acronym>
+    <Name>STAR-Summer Trans Advis & Reg</Name>
+  </Subject>
+  <Subject>
+    <Acronym>STAT</Acronym>
+    <Name>STAT-Statistics</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SUPV</Acronym>
+    <Name>SUPV-Supervision - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SUST</Acronym>
+    <Name>SUST-Sustainability Studies-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SWAH</Acronym>
+    <Name>SWAH-Swahili</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SWK</Acronym>
+    <Name>SWK-Social Work-IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>SWRK</Acronym>
+    <Name>SWRK-Social Work</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TCEM</Acronym>
+    <Name>TCEM-Tour Conventns&Event Mgmt</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TCM</Acronym>
+    <Name>TCM-Technical Communications</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TCOM</Acronym>
+    <Name>TCOM-Communications Gts - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TECH</Acronym>
+    <Name>TECH-Technology</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TEL</Acronym>
+    <Name>TEL-Telecommunications - IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>THTR</Acronym>
+    <Name>THTR-Theatre</Name>
+  </Subject>
+  <Subject>
+    <Acronym>TLI</Acronym>
+    <Name>TLI-Technology Ldrshp Innovatn</Name>
+  </Subject>
+  <Subject>
+    <Acronym>UCOL</Acronym>
+    <Name>UCOL-University College -IU</Name>
+  </Subject>
+  <Subject>
+    <Acronym>URDU</Acronym>
+    <Name>URDU-Urdu</Name>
+  </Subject>
+  <Subject>
+    <Acronym>USP</Acronym>
+    <Name>USP-Undergrad Studies Prog</Name>
+  </Subject>
+  <Subject>
+    <Acronym>VCD</Acronym>
+    <Name>VCD-Visual Comm & Design</Name>
+  </Subject>
+  <Subject>
+    <Acronym>VCS</Acronym>
+    <Name>VCS-Veterinary Clinical Sci</Name>
+  </Subject>
+  <Subject>
+    <Acronym>VM</Acronym>
+    <Name>VM-Veterinary Medicine</Name>
+  </Subject>
+  <Subject>
+    <Acronym>WGSS</Acronym>
+    <Name>WGSS-Women Gend&Sexuality Std</Name>
+  </Subject>
+  <Subject>
+    <Acronym>WLAC</Acronym>
+    <Name>WLAC-World Languages&Culture</Name>
+  </Subject>
+  <Subject>
+    <Acronym>WOST</Acronym>
+    <Name>WOST-Women's Studies</Name>
+  </Subject>
+  <Subject>
+    <Acronym>YDAE</Acronym>
+    <Name>YDAE-Youth Develop & Ag Educ</Name>
+  </Subject>
+</ArrayOfSubject>

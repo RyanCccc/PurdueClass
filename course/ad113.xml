@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<ArrayOfCourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Course>
+    <Subject>
+      <Acronym>AD</Acronym>
+      <Name>AD-Art &amp; Design</Name>
+    </Subject>
+    <Number>11300</Number>
+    <Title>Basic Drawing</Title>
+    <Description>An introduction to drawing and sketching as a means of communication of ideas. Typically offered Summer Fall Spring. CTL:IFA 1320 Drawing</Description>
+    <Credits>3</Credits>
+    <Schedules>
+      <Schedule>
+        <TypeId>SD</TypeId>
+        <TypeName>Studio</TypeName>
+        <Sections>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>001</Number>
+            <RegistrationNumber>10206</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>003</Number>
+            <RegistrationNumber>10202</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Linda Lee  Vanderkolk</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T14:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Linda Lee  Vanderkolk</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T14:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>004</Number>
+            <RegistrationNumber>10204</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Argelia Jael  Hernandez ortega</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>005</Number>
+            <RegistrationNumber>10200</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Linda Lee  Vanderkolk</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T08:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Linda Lee  Vanderkolk</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T08:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>007</Number>
+            <RegistrationNumber>10205</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Caroline Elizabeth  Owen</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Caroline Elizabeth  Owen</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Caroline Elizabeth  Owen</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3104</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>008</Number>
+            <RegistrationNumber>10208</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Caroline Elizabeth  Owen</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T14:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Caroline Elizabeth  Owen</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T14:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Basic Drawing</Name>
+            <Number>009</Number>
+            <RegistrationNumber>10210</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Sagan Anne  Newham</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T08:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Sagan Anne  Newham</Instructors>
+                <BuildingName>Pao Hall of Visual &amp; Perf Arts</BuildingName>
+                <Room>3108</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T08:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+    </Schedules>
+  </Course>
+</ArrayOfCourse>
