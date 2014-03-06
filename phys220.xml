@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<ArrayOfCourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Course>
+    <Subject>
+      <Acronym>PHYS</Acronym>
+      <Name>PHYS-Physics</Name>
+    </Subject>
+    <Number>22000</Number>
+    <Title>General Physics</Title>
+    <Description>Mechanics, heat, and sound, for students not specializing in physics. Typically offered Fall Spring Summer. CTL:IPS 1751 Algebra-based Physics I</Description>
+    <Credits>0 or 4</Credits>
+    <Schedules>
+      <Schedule>
+        <TypeId>LAB</TypeId>
+        <TypeName>Laboratory</TypeName>
+        <Sections>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>006</Number>
+            <RegistrationNumber>25712</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T13:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>007</Number>
+            <RegistrationNumber>25713</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T13:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>008</Number>
+            <RegistrationNumber>25714</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T13:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>010</Number>
+            <RegistrationNumber>25716</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>011</Number>
+            <RegistrationNumber>25717</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T13:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>012</Number>
+            <RegistrationNumber>25718</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>013</Number>
+            <RegistrationNumber>25719</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T15:30:00</StartTime>
+                <EndTime>0001-01-01T17:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>014</Number>
+            <RegistrationNumber>25720</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>015</Number>
+            <RegistrationNumber>25721</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T15:30:00</StartTime>
+                <EndTime>0001-01-01T17:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>016</Number>
+            <RegistrationNumber>25722</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T07:30:00</StartTime>
+                <EndTime>0001-01-01T09:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>017</Number>
+            <RegistrationNumber>25723</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>018</Number>
+            <RegistrationNumber>25724</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>019</Number>
+            <RegistrationNumber>25725</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>020</Number>
+            <RegistrationNumber>25726</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T15:30:00</StartTime>
+                <EndTime>0001-01-01T17:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>021</Number>
+            <RegistrationNumber>25727</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>022</Number>
+            <RegistrationNumber>33215</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>121</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+      <Schedule>
+        <TypeId>LEC</TypeId>
+        <TypeName>Lecture</TypeName>
+        <Sections>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>001</Number>
+            <RegistrationNumber>25707</RegistrationNumber>
+            <LinkId>A1</LinkId>
+            <RequiredLinkId>A3</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T10:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T10:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>002</Number>
+            <RegistrationNumber>25708</RegistrationNumber>
+            <LinkId>A1</LinkId>
+            <RequiredLinkId>A3</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Suzanne E  Lorenz, Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Suzanne E  Lorenz, Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+      <Schedule>
+        <TypeId>REC</TypeId>
+        <TypeName>Recitation</TypeName>
+        <Sections>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>003</Number>
+            <RegistrationNumber>25709</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>General Physics</Name>
+            <Number>004</Number>
+            <RegistrationNumber>25710</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Stephen M  Durbin</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>114</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T10:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+    </Schedules>
+  </Course>
+</ArrayOfCourse>
