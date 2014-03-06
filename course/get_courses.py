@@ -65,29 +65,34 @@ def parse_subjects(term=default_term, should_store=False):
 def parse_courses(subject, term=default_term, keywords=''):
     data = search_courses_raw(subject, term, keywords)
     data = handle_xml(data,methods[0])
-    courses = []
+    course_nodes = []
     root = ET.fromstring(data)
-    courses = root.findall('Course')
-    for course in courses:
-        CNBR = course.find('Number').text
-        title = course.find('Title').text
-        credit = course.find('Credits').text
-        description = course.find('Description').text
-        subject = course.find('Subject')
-        subject_code = subject.find('Acronym').text
-        subject_name = subject.find('Name').text
-
+    course_nodes = root.findall('Course')
+    for course_node in course_nodes:
+        # Basic course info
+        CNBR = course_node.find('Number').text
+        title = course_node.find('Title').text
+        credit = course_node.find('Credits').text
+        description = course_node.find('Description').text
+        subject_node = course_node.find('Subject')
+        subject_code = subject_node.find('Acronym').text
+        subject_name = subject_node.find('Name').text
         if not description:
             description = ''
-        print 'Saving', CNBR
-        course_db = Course(subject=subject_code,
-                           subject_name=subject_name,
-                           CNBR=CNBR,
-                           title=title,
-                           description=description,
-                           credit=credit,)
-        course_db.save()
-        course_db.term = Term.objects.get(description=term)
+
+        schedule_nodes = course_node.findall('Schedules/Schedule')
+        # Save course if it has schedule
+        if schedule_nodes:
+            course_db = Course(subject=subject_code,
+                               subject_name=subject_name,
+                               CNBR=CNBR,
+                               title=title,
+                               description=description,
+                               credit=credit,)
+            course_db.term = Term.objects.get(description=term)
+            course_db.save()
+        #TODO deal with schedule_nodes
+
 
 def parse_all_courses(term=default_term):
     subjects = parse_subjects(term)

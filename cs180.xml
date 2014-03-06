@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<ArrayOfCourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Course>
+    <Subject>
+      <Acronym>CS</Acronym>
+      <Name>CS-Computer Sciences</Name>
+    </Subject>
+    <Number>18000</Number>
+    <Title>Problem Solving And Object-Oriented Programming</Title>
+    <Description>Problem solving and algorithms, implementation of algorithms in a high level programming language, conditionals, the iterative approach and debugging, collections of data, searching and sorting, solving problems by decomposition, the object-oriented approach, subclasses of existing classes, handling exceptions that occur when the program is running, graphical user interfaces (GUIs), data stored in files, abstract data types, a glimpse at topics from other CS courses.  Intended primarily for students majoring in computer sciences. Credit cannot be obtained for both CS 18000 and any of 15600, 15800 and 15900. Not open to students with credit in CS 18100 or 24000. Typically offered Fall Spring.</Description>
+    <Credits>0 or 4</Credits>
+    <Schedules>
+      <Schedule>
+        <TypeId>LAB</TypeId>
+        <TypeName>Laboratory</TypeName>
+        <Sections>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L11</Number>
+            <RegistrationNumber>65279</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T15:30:00</StartTime>
+                <EndTime>0001-01-01T17:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L12</Number>
+            <RegistrationNumber>64743</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L13</Number>
+            <RegistrationNumber>64739</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L14</Number>
+            <RegistrationNumber>12257</RegistrationNumber>
+            <LinkId>A2</LinkId>
+            <RequiredLinkId>A1</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T09:30:00</StartTime>
+                <EndTime>0001-01-01T11:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L21</Number>
+            <RegistrationNumber>12258</RegistrationNumber>
+            <LinkId>A4</LinkId>
+            <RequiredLinkId>A3</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T13:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L22</Number>
+            <RegistrationNumber>12259</RegistrationNumber>
+            <LinkId>A4</LinkId>
+            <RequiredLinkId>A3</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T15:30:00</StartTime>
+                <EndTime>0001-01-01T17:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>L23</Number>
+            <RegistrationNumber>12260</RegistrationNumber>
+            <LinkId>A4</LinkId>
+            <RequiredLinkId>A3</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Thursday</DayOfWeek>
+                <Instructors>TBA</Instructors>
+                <BuildingName>Lawson Computer Science Bldg</BuildingName>
+                <Room>B148</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T13:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+      <Schedule>
+        <TypeId>LEC</TypeId>
+        <TypeName>Lecture</TypeName>
+        <Sections>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>LE1</Number>
+            <RegistrationNumber>12956</RegistrationNumber>
+            <LinkId>A1</LinkId>
+            <RequiredLinkId>A2</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Despoina   Perouli</Instructors>
+                <BuildingName>Electrical Engineering Bldg</BuildingName>
+                <Room>170</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Despoina   Perouli</Instructors>
+                <BuildingName>Electrical Engineering Bldg</BuildingName>
+                <Room>170</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Despoina   Perouli</Instructors>
+                <BuildingName>Electrical Engineering Bldg</BuildingName>
+                <Room>170</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+          <Section>
+            <Name>Problem Solving And Object-Oriented Programming</Name>
+            <Number>LE2</Number>
+            <RegistrationNumber>12261</RegistrationNumber>
+            <LinkId>A3</LinkId>
+            <RequiredLinkId>A4</RequiredLinkId>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Monday</DayOfWeek>
+                <Instructors>Hubert E  Dunsmore</Instructors>
+                <BuildingName>Lilly Hall of Life Sciences</BuildingName>
+                <Room>G420</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Wednesday</DayOfWeek>
+                <Instructors>Hubert E  Dunsmore</Instructors>
+                <BuildingName>Lilly Hall of Life Sciences</BuildingName>
+                <Room>G420</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Friday</DayOfWeek>
+                <Instructors>Hubert E  Dunsmore</Instructors>
+                <BuildingName>Lilly Hall of Life Sciences</BuildingName>
+                <Room>G420</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T11:30:00</StartTime>
+                <EndTime>0001-01-01T12:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-05-03T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+    </Schedules>
+  </Course>
+</ArrayOfCourse>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfCourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Course>
+    <Subject>
+      <Acronym>CS</Acronym>
+      <Name>CS-Computer Sciences</Name>
+    </Subject>
+    <Number>10000</Number>
+    <Title>An Introduction To Computer Science</Title>
+    <Description>This course is intended to: integrate freshman computer science majors into the department; help them adjust to university life; assist them in developing their academic and intellectual capabilities; introduce them to contemporary issues in computer science; provide an overview of the careers open to those with degrees in computer science.  this course must be taken pass/no pass only.  Credit by examination is not available for this course. Typically offered Summer Fall Spring.</Description>
+    <Credits>1</Credits>
+    <Schedules />
+  </Course>
+</ArrayOfCourse>
