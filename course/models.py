@@ -33,6 +33,13 @@ class Term(models.Model):
     code = models.IntegerField()
     description = models.CharField(max_length=20)
 
+    def dump_data(self):
+        term = {
+            'code': self.code,
+            'description': self.description,
+        }
+        return term
+
 
 class Course(models.Model):
     subject = models.CharField(max_length=10)
@@ -45,12 +52,39 @@ class Course(models.Model):
     term = models.ForeignKey('Term')
     objects = CourseManager()
 
+    def dump_data(self):
+        course = {
+            'subject': self.subject,
+            'subject_name': self.subject_name,
+            'CNBR': self.CNBR,
+            'title': self.title,
+            'description': self.description,
+            'credit': self.credit,
+            'code': self.code,
+        }
+        schedule_data = []
+        for schedule in self.schedule_set.all():
+            schedule_data.append(schedule.dump_data())
+        course['schedule'] = schedule_data
+        return course
+
 
 class Schedule(models.Model):
     course = models.ForeignKey('Course')
 
     type_id = models.CharField(max_length=20)
     type_name = models.CharField(max_length=50)
+
+    def dump_data(self):
+        schedule = {
+            'type_id': self.type_id,
+            'type_name': self.type_name,
+        }
+        section_data = []
+        for section in self.section_set.all():
+            section_data.append(section.dump_data())
+        schedule['sections'] = section_data
+        return schedule
 
 
 class Section(models.Model):
@@ -61,6 +95,28 @@ class Section(models.Model):
     crn = models.CharField(max_length=10)
     link_id = models.CharField(max_length=20, null=True)
     required_link_id = models.CharField(max_length=20, null=True)
+
+    def dump_data(self, need_link=True):
+        section = {
+            'name': self.name,
+            'number': self.number,
+            'crn': self.crn,
+        }
+        if need_link:
+            linked_secs = self.get_linked_sections()
+            linked_secs_all_data = []
+            for secs in linked_secs:
+                linked_secs_data = []
+                for sec in secs:
+                    linked_secs_data.append(sec.dump_data(False))
+                linked_secs_all_data.append(linked_secs_data)
+            section['linked_sections'] = linked_secs_all_data
+        meeting_data = []
+        for meeting in self.meeting_set.all():
+            meeting_data.append(meeting.dump_data())
+        section['meetings'] = meeting_data    
+        return section
+
 
     def get_linked_sections(self):
         linked_secs_all = []
@@ -90,6 +146,17 @@ class Meeting(models.Model):
     room = models.CharField(max_length=50)
     start_t = models.IntegerField()
     end_t = models.IntegerField()
+    
+    def dump_data(self):
+        meeting = {
+            'DayOfWeek': self.DayOfWeek,
+            'instructor': self.instructor,
+            'building': self.building,
+            'room': self.room,
+            'start_t': self.start_t,
+            'end_t': self.end_t,
+        }
+        return meeting
 
     @staticmethod
     def convert_raw_time_to_int(raw_time):
