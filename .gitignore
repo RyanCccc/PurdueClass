@@ -4,3 +4,4 @@ password
 *.sublime*
 public
 apache
+.DS_Store
