@@ -105,12 +105,12 @@ class Section(models.Model):
         if need_link:
             linked_secs = self.get_linked_sections()
             linked_secs_all_data = []
-            for secs in linked_secs:
-                linked_secs_data = []
-                for sec in secs:
-                    linked_secs_data.append(sec.dump_data(False))
-                linked_secs_all_data.append(linked_secs_data)
-            if linked_secs_all_data:
+            if linked_secs:
+                for secs in linked_secs:
+                    linked_secs_data = []
+                    for sec in secs:
+                        linked_secs_data.append(sec.dump_data(False))
+                    linked_secs_all_data.append(linked_secs_data)
                 section['linked_sections'] = linked_secs_all_data
         meeting_data = []
         for meeting in self.meeting_set.all():
