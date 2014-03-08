@@ -110,7 +110,8 @@ class Section(models.Model):
                 for sec in secs:
                     linked_secs_data.append(sec.dump_data(False))
                 linked_secs_all_data.append(linked_secs_data)
-            section['linked_sections'] = linked_secs_all_data
+            if linked_secs_all_data:
+                section['linked_sections'] = linked_secs_all_data
         meeting_data = []
         for meeting in self.meeting_set.all():
             meeting_data.append(meeting.dump_data())
@@ -119,23 +120,25 @@ class Section(models.Model):
 
 
     def get_linked_sections(self):
-        linked_secs_all = []
-        course = self.schedule.course
-        schedules = course.schedule_set.all()
-        link_id = self.link_id
-        required_link_id_list = set([self.required_link_id,])
-        while required_link_id_list:
-            required_link_id = required_link_id_list.pop()
-            linked_secs = []
-            for schedule in schedules:
-                for sec in schedule.section_set.all():
-                    if sec.link_id == required_link_id:
-                        linked_secs.append(sec)
-                        if not sec.required_link_id == link_id:
-                            required_link_id_list.add(sec.required_link_id)
-            linked_secs_all.append(linked_secs)
-        return linked_secs_all
-
+        if self.required_link_id:
+            linked_secs_all = []
+            course = self.schedule.course
+            schedules = course.schedule_set.all()
+            link_id = self.link_id
+            required_link_id_list = set([self.required_link_id,])
+            while required_link_id_list:
+                required_link_id = required_link_id_list.pop()
+                linked_secs = []
+                for schedule in schedules:
+                    for sec in schedule.section_set.all():
+                        if sec.link_id == required_link_id:
+                            linked_secs.append(sec)
+                            if not sec.required_link_id == link_id:
+                                required_link_id_list.add(sec.required_link_id)
+                linked_secs_all.append(linked_secs)
+            return linked_secs_all
+        else:
+            return None
 
 class Meeting(models.Model):
     section = models.ForeignKey('Section')

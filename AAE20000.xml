@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<ArrayOfCourse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Course>
+    <Subject>
+      <Acronym>AAE</Acronym>
+      <Name>AAE-Aero &amp; Astro Engineering</Name>
+    </Subject>
+    <Number>20000</Number>
+    <Title>Undergraduate Sophomore Seminar</Title>
+    <Description>The courses are intended to provide a forum for guest speakers, organizational and informational meetings with undergraduates, and to provide a venue for discussion of professional development. Typically offered Fall Spring.</Description>
+    <Credits>0</Credits>
+    <Schedules>
+      <Schedule>
+        <TypeId>LEC</TypeId>
+        <TypeName>Lecture</TypeName>
+        <Sections>
+          <Section>
+            <Name>Undergraduate Sophomore Seminar</Name>
+            <Number>SO1</Number>
+            <RegistrationNumber>57512</RegistrationNumber>
+            <Meetings>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Marc H  Williams, Lisa Marie  Crain</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>203</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T14:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-01-13T00:00:00</StartDate>
+                <EndDate>2014-01-19T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Marc H  Williams, Lisa Marie  Crain</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>203</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T14:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-02-03T00:00:00</StartDate>
+                <EndDate>2014-02-09T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Marc H  Williams, Lisa Marie  Crain</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>203</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T14:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-02-24T00:00:00</StartDate>
+                <EndDate>2014-03-02T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Marc H  Williams, Lisa Marie  Crain</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>203</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T14:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-03-24T00:00:00</StartDate>
+                <EndDate>2014-03-30T00:00:00</EndDate>
+              </Meeting>
+              <Meeting>
+                <DayOfWeekIsKnown>true</DayOfWeekIsKnown>
+                <DayOfWeek>Tuesday</DayOfWeek>
+                <Instructors>Marc H  Williams, Lisa Marie  Crain</Instructors>
+                <BuildingName>Physics Building</BuildingName>
+                <Room>203</Room>
+                <TimeRangeIsKnown>true</TimeRangeIsKnown>
+                <StartTime>0001-01-01T14:30:00</StartTime>
+                <EndTime>0001-01-01T15:20:00</EndTime>
+                <DateRangeIsKnown>true</DateRangeIsKnown>
+                <StartDate>2014-04-14T00:00:00</StartDate>
+                <EndDate>2014-04-20T00:00:00</EndDate>
+              </Meeting>
+            </Meetings>
+          </Section>
+        </Sections>
+      </Schedule>
+    </Schedules>
+  </Course>
+</ArrayOfCourse>
