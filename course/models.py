@@ -65,7 +65,7 @@ class Course(models.Model):
         schedule_data = []
         for schedule in self.schedule_set.all():
             schedule_data.append(schedule.dump_data())
-        course['schedule'] = schedule_data
+        course['schedules'] = schedule_data
         return course
 
 
