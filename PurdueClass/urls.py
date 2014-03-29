@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^course/', include('course.urls')),
+    url(r'^course/json/'),include('pu_class.urls')),
 )
