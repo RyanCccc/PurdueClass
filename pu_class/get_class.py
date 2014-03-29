@@ -60,12 +60,11 @@ def get_sections(subject, term=default_term):
 
 			crn = re.findall(' - \d{5} - ',title)[0]
 			section['crn']=crn.strip(' -');
-			section['name'] = title[:title.find(crn)]
+			section_name = title[:title.find(crn)]
 			title = title[title.find(crn)+len(crn):]
 			_strs = title.split(' - ')
-			section['subject']=_strs[0].split(' ')[0]
-			section['cnbr']=_strs[0].split(' ')[1]
-			cnbr = section['cnbr']
+			#section['subject']=_strs[0].split(' ')[0]
+			cnbr = _strs[0].split(' ')[1]
 			section['number']=_strs[1]
 
 			if len(element_a_set) > 1:
@@ -74,7 +73,7 @@ def get_sections(subject, term=default_term):
 				_iter.next()
 				link_id = _iter.next()
 				link_id = link_id.strip(u'\xa0').split(': ')[1]
-				section['link_id'] = link_id
+				section['linked_id'] = link_id
 				_iter.next()
 				required_link_id = _iter.next()
 				required_link_id = required_link_id.strip('()');
@@ -104,17 +103,21 @@ def get_sections(subject, term=default_term):
 			section['meetings'] = meetings
 
 			if courses.has_key(cnbr):
-				courses[cnbr].append(section)
+				courses[cnbr]['sections'].append(section)
+				if not section_name == courses[cnbr]['name']:
+					raise Exception('Different name for same course %s %s' %(subject, cnbr))
 			else:
-				courses[cnbr] = [section,]
+				courses[cnbr] = {}
+				courses[cnbr]['sections'] = [section,]
+				courses[cnbr]['name'] = section_name
 		return courses
 
 
 def get_all_subjects():
 	subjects = get_subjects()
-	all_courses = {}
+	all_courses = []
 	for subject in subjects:
-		all_courses[subject[0]] = get_sections(subject[0])
+		all_courses.append([subject[0], subject[1], get_sections(subject[0])])
 		print 'Finished %s' % subject[0]
 	return all_courses
 
