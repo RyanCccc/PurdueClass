@@ -104,8 +104,8 @@ def get_sections(subject, term=default_term):
 
 			if courses.has_key(cnbr):
 				courses[cnbr]['sections'].append(section)
-				if not section_name == courses[cnbr]['name']:
-					raise Exception('Different name for same course %s %s' %(subject, cnbr))
+				#if not section_name == courses[cnbr]['name']:
+				#	raise Exception('Different name for same course %s %s' %(subject, cnbr))
 			else:
 				courses[cnbr] = {}
 				courses[cnbr]['sections'] = [section,]
@@ -113,12 +113,19 @@ def get_sections(subject, term=default_term):
 		return courses
 
 
-def get_all_subjects():
-	subjects = get_subjects()
+def get_all_subjects(term=default_term):
+	subjects = get_subjects(term)
 	all_courses = []
 	for subject in subjects:
-		all_courses.append([subject[0], subject[1], get_sections(subject[0])])
+		all_courses.append([subject[0], subject[1], get_sections(subject[0],term)])
 		print 'Finished %s' % subject[0]
+	term_code = convert_term_to_code(term)
+	f = open('%s.json'%term_code, 'w')
+	import json
+	j = json.dumps(all_courses)
+	f.write(j)
+	f.flush()
+	f.close()
 	return all_courses
 
 
