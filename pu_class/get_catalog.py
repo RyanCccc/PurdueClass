@@ -45,11 +45,11 @@ def get_catalogs(subject, term=default_term):
 
 def get_all_catalogs(term=default_term):
     subjects = get_subjects(term)
-    all_catalogs = []
+    all_catalogs = {}
     for subject in subjects:
         catalogs = get_catalogs(subject[0], term)
         for catalog in catalogs:
-            all_catalogs.append({catalog['course']:catalog})
+            all_catalogs[catalog['course']]=catalog
         print 'Finished %s' % subject[0]
     term_code = convert_term_to_code(term)
     f = open('%s_catalogs.json'%term_code, 'w')
