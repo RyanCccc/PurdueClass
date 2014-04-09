@@ -57,7 +57,6 @@ def get_sections(subject, term=default_term):
 			element_a_set = title_row.findall('th/a')
 			title = element_a_set[0].text
 
-
 			crn = re.findall(' - \d{5} - ',title)[0]
 			section['crn']=crn.strip(' -');
 			section_name = title[:title.find(crn)]
