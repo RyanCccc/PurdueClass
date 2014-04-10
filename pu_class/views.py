@@ -34,3 +34,9 @@ def get_seats_by_term(request):
     }
     seats_j = json.dumps(seats)
     return HttpResponse(seats_j, content_type="application/json")
+
+def get_seats_by_term(request):
+    terms = ['Fall2014',]
+    terms_j = json.dumps(terms)
+    return HttpResponse(terms_j, content_type="application/json")
+    
