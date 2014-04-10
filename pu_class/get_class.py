@@ -126,21 +126,3 @@ def get_all_subjects(term=default_term):
 	f.write(j)
 	f.flush()
 	f.close()
-	return all_courses
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

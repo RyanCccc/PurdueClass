@@ -36,7 +36,7 @@ def get_seats_by_term(request):
     return HttpResponse(seats_j, content_type="application/json")
 
 def get_terms(request):
-    terms = ['Fall2014',]
+    terms = ['Spring2014', 'Summer2014', 'Fall2014',]
     terms_j = json.dumps(terms)
     return HttpResponse(terms_j, content_type="application/json")
     
