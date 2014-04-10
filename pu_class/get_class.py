@@ -60,6 +60,7 @@ def get_sections(subject, term=default_term):
 			crn = re.findall(' - \d{5} - ',title)[0]
 			section['crn']=crn.strip(' -');
 			section_name = title[:title.find(crn)]
+			section['name']=section_name
 			title = title[title.find(crn)+len(crn):]
 			_strs = title.split(' - ')
 			#section['subject']=_strs[0].split(' ')[0]
