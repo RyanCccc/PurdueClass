@@ -27,11 +27,10 @@ def get_seats_by_term(request):
     term_code = convert_term_to_code(term)
     max_num, taken_num = get_seats(crn, term_code)
     remain_num = max_num - taken_num
-    ##seats = {
-    ##    'max':max_num,
-    ##    'remain':remain_num,
-    ##    'taken':taken_num,
-    ##}
-    ##seats_j = json.dumps(seats)
-    _str = 'Capacity: %d\nActual: %d\nRemaining: %d' % (max_num, taken_num, remain_num);
-    return HttpResponse(_str)
+    seats = {
+        'max':max_num,
+        'remain':remain_num,
+        'taken':taken_num,
+    }
+    seats_j = json.dumps(seats)
+    return HttpResponse(seats_j, content_type="application/json")
