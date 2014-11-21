@@ -4,7 +4,7 @@ from util import convert_code_to_term, convert_term_to_code
 
 catalog_display_url = 'https://selfservice.mypurdue.purdue.edu/prod/bwckctlg.p_display_courses'
 catalog_search_url ='https://selfservice.mypurdue.purdue.edu/prod/bwckctlg.p_disp_cat_term_date'
-default_term = 'Fall2014'
+default_term = 'Spring2015'
 param ='term_in={0}&call_proc_in=bwckctlg.p_disp_dyn_ctlg&sel_subj=dummy&sel_levl=dummy&sel_schd=dummy&sel_coll=dummy&sel_divs=dummy&sel_dept=dummy&sel_attr=dummy&sel_subj={1}&sel_crse_strt=&sel_crse_end=&sel_title=&sel_levl=%25&sel_schd=%25&sel_coll=%25&sel_divs=%25&sel_dept=%25&sel_from_cred=&sel_to_cred=&sel_attr=%25'
 
 def get_catalogs(subject, term=default_term):
@@ -12,7 +12,7 @@ def get_catalogs(subject, term=default_term):
     param ='term_in={0}&call_proc_in=bwckctlg.p_disp_dyn_ctlg&sel_subj=dummy&sel_levl=dummy&sel_schd=dummy&sel_coll=dummy&sel_divs=dummy&sel_dept=dummy&sel_attr=dummy&sel_subj={1}&sel_crse_strt=&sel_crse_end=&sel_title=&sel_levl=%25&sel_schd=%25&sel_coll=%25&sel_divs=%25&sel_dept=%25&sel_from_cred=&sel_to_cred=&sel_attr=%25'
     param = param.format(term_code, subject)
     resp = get_conn(catalog_display_url, catalog_search_url, param, True);
-    if resp.code !=200:
+    if resp.status !=200:
         return None
     else:
         content = resp.read()

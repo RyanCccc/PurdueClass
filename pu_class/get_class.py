@@ -4,20 +4,35 @@ import urllib2
 import re
 from lxml import etree
 from util import convert_code_to_term, convert_term_to_code
+from httplib import HTTPSConnection
 
+host = 'selfservice.mypurdue.purdue.edu'
 select_term_url = 'https://selfservice.mypurdue.purdue.edu/prod/bwckschd.p_disp_dyn_sched'
 subject_url = 'https://selfservice.mypurdue.purdue.edu/prod/bwckgens.p_proc_term_date'
 section_url = 'https://selfservice.mypurdue.purdue.edu/prod/bwckschd.p_get_crse_unsec'
-default_term = 'Fall2014'
+default_term = 'Spring2015'
 
 def get_conn(url, ref_url, param, encode=False):
-	req = urllib2.Request(url)
-	req.add_header('Referer', ref_url)
-	data = param
-	if not encode:
-		data = urllib.urlencode(param)
-	resp = urllib2.urlopen(req, data)
-	return resp
+    h = HTTPSConnection(host)
+    data = param
+    if not encode:
+        data = urllib.urlencode(param)
+    if data:
+        #post
+        resp = h.request('POST', url, body=data, headers={'Referer':ref_url,})
+    else:
+        resp = h.request('GET', url, headers={'Referer':ref_url,})
+    
+    resp = h.getresponse()
+    return resp
+
+#	req = urllib2.Request(url)
+#	req.add_header('Referer', ref_url)
+#	data = param
+#	if not encode:
+#		data = urllib.urlencode(param)
+#	resp = urllib2.urlopen(req, data)
+#	return resp
 
 def get_subjects(term=default_term):
 	subjects = []
@@ -25,7 +40,7 @@ def get_subjects(term=default_term):
 	p_term = convert_term_to_code(term)
 	param = {'p_calling_proc' : p_calling_proc, 'p_term' : p_term}
 	resp = get_conn(subject_url, select_term_url, param);
-	if resp.code != 200:
+	if resp.status != 200:
 		return None
 	else:
 		content = resp.read()
@@ -42,7 +57,7 @@ def get_sections(subject, term=default_term):
 	param = 'term_in={0}&sel_subj=dummy&sel_day=dummy&sel_schd=dummy&sel_insm=dummy&sel_camp=dummy&sel_levl=dummy&sel_sess=dummy&sel_instr=dummy&sel_ptrm=dummy&sel_attr=dummy&sel_subj={1}&sel_crse=&sel_title=&sel_schd=%25&sel_from_cred=&sel_to_cred=&sel_camp=%25&sel_ptrm=%25&sel_instr=%25&sel_sess=%25&sel_attr=%25&begin_hh=0&begin_mi=0&begin_ap=a&end_hh=0&end_mi=0&end_ap=a'
 	param = param.format(term_code, subject)
 	resp = get_conn(section_url, subject_url, param, True);
-	if resp.code !=200:
+	if resp.status !=200:
 		return None
 	else:
 		content = resp.read()
