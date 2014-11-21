@@ -58,14 +58,14 @@ WSGI_APPLICATION = 'PurdueClass.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
-from deploy import get_secret
+#from deploy import get_secret
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'PUCLASS' if PRODUCT_MODE else 'PUCLASS_DEV',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'chen769',
-        'PASSWORD': get_secret.get_password(),
+        'PASSWORD': '',
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     }
