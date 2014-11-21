@@ -5,6 +5,7 @@ import urllib2
 import re
 
 #from class_time import Time_Interval, Class_Time
+from PurdueClass import settings
 
 class ParserException(Exception):
     pass

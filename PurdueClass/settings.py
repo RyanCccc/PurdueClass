@@ -39,7 +39,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'pu_class',
-    'south',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -62,7 +61,7 @@ WSGI_APPLICATION = 'PurdueClass.wsgi.application'
 from deploy import get_secret
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'PUCLASS' if PRODUCT_MODE else 'PUCLASS_DEV',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'chen769',
@@ -100,3 +99,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     path.join(BASE_DIR, 'static'),
 )
+
+CURRENT_TERM = 201520

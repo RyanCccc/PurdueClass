@@ -1,13 +1,11 @@
 Django==1.7
 GitPython==0.3.2.RC1
 MySQL-python==1.2.5
-PIL==1.1.7
 South==1.0
 async==0.6.1
 backports.ssl-match-hostname==3.4.0.2
 beautifulsoup4==4.3.2
 dj-database-url==0.3.0
-docker-py==0.6.0
 flake8==2.1.0
 gitdb==0.5.4
 ipdb==0.8
@@ -22,7 +20,6 @@ pyflakes==0.7.3
 pyparsing==2.0.1
 requests==2.4.3
 simple-crypt==3.0.0
-six==1.8.0
 smmap==0.8.2
 vboxapi==1.0
 virtualenv==1.10.1
