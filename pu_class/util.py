@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as BS
 import urllib
 import urllib2
 import re
+from httplib import HTTPSConnection
 
 #from class_time import Time_Interval, Class_Time
 from PurdueClass import settings
@@ -11,16 +12,12 @@ class ParserException(Exception):
     pass
 
 def get_resp(crn, term):
-    url_head = 'https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_schedule_detail'
-    param = {'crn' : crn, 'term' : term}
-    url = url_head + '?' + urllib.urlencode(param) 
-    try:
-        resp = urllib2.urlopen(url)
-    except:
-        raise ParserException('Cannot open url %s' % url)
-    if resp.code == 200:
+    h = HTTPSConnection('selfservice.mypurdue.purdue.edu')
+    h.request('GET', '/prod/bzwsrch.p_schedule_detail?crn='+str(crn)+'&term='+str(term))
+    resp = h.getresponse()
+    if resp.status == 200:
         return resp
-    raise ParserException('Response incorrect, code: %s' % resp.code)
+    raise ParserException('Response incorrect, code: %s' % resp.status)
 
 def get_parser(resp):
     html = resp.read()
@@ -89,47 +86,52 @@ def get_all(crn, term):
     return max_num, curr_num, sec_name, sec_code, sec_num
 
 def get_all_secs_by_class(sub, cnbr, term='CURRENT', timeout=None):
-    url = "https://selfservice.mypurdue.purdue.edu/prod/bzwsrch.p_search_schedule?term=%s&cnbr=%s&subject=%s" % (term, cnbr, sub)
+    url = "/prod/bzwsrch.p_search_schedule?term=%s&cnbr=%s&subject=%s" % (term, cnbr, sub)
+    h = None
+    if timeout:
+        h = HTTPSConnection('selfservice.mypurdue.purdue.edu', timeout=timeout)
+    else:
+        h = HTTPSConnection('selfservice.mypurdue.purdue.edu')
+    h.request('GET', url)
+    resp = h.getresponse()
+    if resp.status == 200:
+        return resp
+    raise ParserException('Response incorrect, code: %s' % resp.status )
+
     classes = []
-    try:
-        if timeout:
-            resp = urllib2.urlopen(url, timeout=timeout)
-        else:
-            resp = urllib2.urlopen(url)
-        data = resp.read()
-        ps = BS(data)
 
-        # Get class name, crn, code, number
-        all_table = ps.find_all('th')
-        total = len(all_table)
-        for i in xrange(0, total, 8):
-            current_table = all_table[i]
-            content = current_table.a.text
-            content = content.split(' - ')
-            cl = dict(
-                name = content[0],
-                crn = content[1],
-                code = content[2],
-                number = content[3]
-            )
-            classes.append(cl)
+    data = resp.read()
+    ps = BS(data)
 
-        # Get class time, type
-        all_table = ps.select('.datadisplaytable')
-        count = 0 
-        # Here delete to adjust new app
-        # 
-        # for i in range(1,len(all_table)-1):
-        #     table = all_table[i]
-        #     info_table = table.select('tr')[1]
-        #     time_raw = info_table.select('td')[1].text
-        #     class_time = Time_Interval(time_raw)
-        #     type_ = info_table.select('td')[5].text
-        #     classes[count]['class_time'] = class_time
-        #     classes[count]['class_type'] = type_
-        #     count += 1
-    except Exception as e:
-        raise ParserException(e.message)
+    # Get class name, crn, code, number
+    all_table = ps.find_all('th')
+    total = len(all_table)
+    for i in xrange(0, total, 8):
+        current_table = all_table[i]
+        content = current_table.a.text
+        content = content.split(' - ')
+        cl = dict(
+            name = content[0],
+            crn = content[1],
+            code = content[2],
+            number = content[3]
+        )
+        classes.append(cl)
+
+    # Get class time, type
+    all_table = ps.select('.datadisplaytable')
+    count = 0 
+    # Here delete to adjust new app
+    # 
+    # for i in range(1,len(all_table)-1):
+    #     table = all_table[i]
+    #     info_table = table.select('tr')[1]
+    #     time_raw = info_table.select('td')[1].text
+    #     class_time = Time_Interval(time_raw)
+    #     type_ = info_table.select('td')[5].text
+    #     classes[count]['class_time'] = class_time
+    #     classes[count]['class_type'] = type_
+    #     count += 1
     return classes
 
 def convert_classname(in_str):
