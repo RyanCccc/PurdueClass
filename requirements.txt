@@ -21,7 +21,5 @@ pyparsing==2.0.1
 requests==2.4.3
 simple-crypt==3.0.0
 smmap==0.8.2
-vboxapi==1.0
 virtualenv==1.10.1
-websocket-client==0.21.0
 wsgiref==0.1.2
